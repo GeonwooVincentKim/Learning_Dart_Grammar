@@ -22,25 +22,25 @@ void main(){
   *  2. rtl
   *  --> Reads Right-To-Left.
   * */
-//  runApp(
-//    Center(
-//      child: Text(
-//          "Hello Flutter",
-//          textDirection: TextDirection.ltr
-//      ),
-//    )
-//  );
-
-//  runApp(
-runApp(
-    Container(
-      alignment: Alignment.bottomCenter,
+  runApp(
+    Center(
       child: Text(
           "Hello Flutter",
-          textDirection: TextDirection.rtl
+          textDirection: TextDirection.ltr
       ),
     )
-);
+  );
+
+//  runApp(
+//runApp(
+//    Container(
+//      alignment: Alignment.bottomCenter,
+//      child: Text(
+//          "Hello Flutter",
+//          textDirection: TextDirection.rtl
+//      ),
+//    )
+//);
 
 //  print("Hello World");
 }
