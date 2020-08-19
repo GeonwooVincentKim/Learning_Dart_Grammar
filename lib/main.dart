@@ -49,10 +49,12 @@ void main(){
       home: Material(
         color: Colors.lightBlueAccent,
         child: Center(
+          child: Text(
             "Hello Flutter",
-
-        )
-      )
+            textDirection: TextDirection.ltr,
+          ),
+        ),
+      ),
     )
   );
 }
