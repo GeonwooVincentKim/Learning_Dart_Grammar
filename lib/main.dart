@@ -31,14 +31,14 @@ void main(){
     )
   );
 
-  runApp(
-    Center(
-      child: Text(
-          "Hello Flutter",
-          textDirection: TextDirection.rtl
-      ),
-    )
-  );
-
-  print("Hello World");
+//  runApp(
+//    Center(
+//      child: Text(
+//          "Hello Flutter",
+//          textDirection: TextDirection.rtl
+//      ),
+//    )
+//  );
+//
+//  print("Hello World");
 }
