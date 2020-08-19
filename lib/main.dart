@@ -22,14 +22,14 @@ void main(){
   *  2. rtl
   *  --> Reads Right-To-Left.
   * */
-  runApp(
-    Center(
-      child: Text(
-          "Hello Flutter",
-          textDirection: TextDirection.ltr
-      ),
-    )
-  );
+//  runApp(
+//    Center(
+//      child: Text(
+//          "Hello Flutter",
+//          textDirection: TextDirection.ltr
+//      ),
+//    )
+//  );
 
 //  runApp(
 //runApp(
@@ -43,4 +43,12 @@ void main(){
 //);
 
 //  print("Hello World");
+  runApp(
+    MaterialApp(
+      title: "My Flutter Application",
+      home: Material(
+        
+      )
+    )
+  );
 }
