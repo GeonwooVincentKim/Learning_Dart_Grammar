@@ -17,9 +17,17 @@ void main(){
   *  2. rtl
   *  --> Reads Right-To-Left.
   * */
-  runApp(Text("Hello Flutter",
-      textDirection: TextDirection.ltr));
-  runApp(Text("Hello Flutter",
-      textDirection: TextDirection.rtl));
+  runApp(
+      Text(
+          "Hello Flutter",
+          textDirection: TextDirection.ltr
+      )
+  );
+  runApp(
+      Text(
+          "Hello Flutter",
+          textDirection: TextDirection.rtl
+      )
+  );
   print("Hello World");
 }
