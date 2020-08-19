@@ -23,11 +23,13 @@ void main(){
           textDirection: TextDirection.ltr
       )
   );
+
   runApp(
       Text(
           "Hello Flutter",
           textDirection: TextDirection.rtl
       )
   );
+
   print("Hello World");
 }
