@@ -6,6 +6,9 @@ import "package:flutter/material.dart";
 
 void main(){
   /*
+     Comments
+     (sometime it doesn't need to use '*'
+     when you push some comments).
   *  Print text methods.
   *  1. Using runApp(Text(""));
   *  2. Using print(""); only.
