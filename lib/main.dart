@@ -31,15 +31,16 @@ void main(){
 //    )
 //  );
 
-  runApp(
-    Align(
+//  runApp(
+runApp(
+    Container(
       alignment: Alignment.bottomCenter,
       child: Text(
           "Hello Flutter",
           textDirection: TextDirection.rtl
       ),
     )
-  );
+);
 
 //  print("Hello World");
 }
