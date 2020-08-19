@@ -23,17 +23,21 @@ void main(){
   *  --> Reads Right-To-Left.
   * */
   runApp(
-      Text(
+    Center(
+      child: Text(
           "Hello Flutter",
           textDirection: TextDirection.ltr
-      )
+      ),
+    )
   );
 
   runApp(
-      Text(
+    Center(
+      child: Text(
           "Hello Flutter",
           textDirection: TextDirection.rtl
-      )
+      ),
+    )
   );
 
   print("Hello World");
