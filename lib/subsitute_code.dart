@@ -39,6 +39,6 @@ void subsitute_code(){
 }
 
 // ignore: non_constant_identifier_names
-void test_print(){
+test_print(){
    print("Hello World");
 }

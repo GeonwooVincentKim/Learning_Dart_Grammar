@@ -2,6 +2,7 @@
 * 'material.dart' was developed by Google.
 *  */
 import "package:flutter/material.dart";
+import 'package:flutter_dart_grammer/subsitute_code.dart';
 
 
 void main(){
@@ -34,25 +35,7 @@ void main(){
           * Name and import body attributes from
           * 'body_appearance()' function.
           * */
-        body: Material(
-          color: Colors.lightBlueAccent,
-          child: Center(
-            child: Column(
-              children: <Widget>[
-                Text(
-                  "Hello Flutter",
-                  textDirection: TextDirection.ltr,
-                  style: TextStyle(color: Colors.white, fontSize: 40.0),
-                ),
-                Text(
-                  "Hi Flutter",
-                  textDirection: TextDirection.rtl,
-                  style: TextStyle(color: Colors.white, fontSize: 40.0),
-                ),
-              ],
-            ),
-          ),
-        )
+        body: test_print(),
       ),
     )
   );
