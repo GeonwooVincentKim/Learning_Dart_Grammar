@@ -64,7 +64,7 @@ void main(){
       home: new Material(
         color: Colors.lightBlueAccent,
         child: Center(
-          child: Row(
+          child: Column(
             children: <Widget>[
               Text(
                 "Hello Flutter",
