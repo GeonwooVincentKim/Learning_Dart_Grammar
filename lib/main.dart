@@ -63,36 +63,41 @@ void main(){
       title: "My Flutter Application",
       home: Scaffold(
         appBar: AppBar(
-          title: Text("App Scene"),),
+          title: Text("App Scene"),
+
+        ),
           /*
           * Name and import body attributes from
           * 'body_appearance()' function.
           * */
-          body: body_appearance()
-        ),
-      )
-  );
-  void body_appearance(){
-    Material(
-      color: Colors.lightBlueAccent,
-      child: Center(
-        child: Column(
-          children: <Widget>[
-            Text(
-              "Hello Flutter",
-              textDirection: TextDirection.ltr,
-              style: TextStyle(color: Colors.white, fontSize: 40.0),
-            ),
-            Text(
-              "Hi Flutter",
-              textDirection: TextDirection.rtl,
-              style: TextStyle(color: Colors.white, fontSize: 40.0),
-            ),
-          ],
-        ),
+          body: Material(g
+            body_appearance(),
+          ),
+
       ),
-    );
-  }
+    )
+  );
 }
 
 // ignore: non_constant_identifier_names
+body_appearance() {
+  Material(
+    color: Colors.lightBlueAccent,
+    child: Center(
+      child: Column(
+        children: <Widget>[
+          Text(
+            "Hello Flutter",
+            textDirection: TextDirection.ltr,
+            style: TextStyle(color: Colors.white, fontSize: 40.0),
+          ),
+          Text(
+            "Hi Flutter",
+            textDirection: TextDirection.rtl,
+            style: TextStyle(color: Colors.white, fontSize: 40.0),
+          ),
+        ],
+      ),
+    ),
+  );
+}
