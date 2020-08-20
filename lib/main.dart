@@ -22,9 +22,6 @@ void main(){
   *  2. rtl
   *  --> Reads Right-To-Left.
   * */
-
-
-
   runApp(
     new MaterialApp(
       title: "My Flutter Application",
