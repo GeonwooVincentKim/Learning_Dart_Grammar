@@ -5,8 +5,7 @@ import "package:flutter/material.dart";
 import 'package:flutter_dart_grammer/subsitute_code.dart';
 
 
-void main(){
-  /*
+/*
      Comments
      (
       sometime it doesn't need to use '*'
@@ -23,6 +22,7 @@ void main(){
   *  2. rtl
   *  --> Reads Right-To-Left.
   * */
+void main(){
   runApp(
     new MyFlutterApp()
   );
