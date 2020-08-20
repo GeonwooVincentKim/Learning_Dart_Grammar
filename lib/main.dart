@@ -61,3 +61,12 @@ body_appearance() {
     ),
   );
 }
+
+
+/*
+* StatelessWidget --> Super-Class.
+* MyFlutterApp --> Supply-Class.
+* */
+class MyFlutterApp extends StatelessWidget{
+
+}
