@@ -24,7 +24,7 @@ void main(){
   *  --> Reads Right-To-Left.
   * */
   runApp(
-
+    new MyFlutterApp()
   );
 }
 
