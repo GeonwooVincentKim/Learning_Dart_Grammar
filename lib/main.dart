@@ -64,6 +64,10 @@ void main(){
       home: Scaffold(
         appBar: AppBar(
           title: Text("App Scene"),),
+          /*
+          * Name and import body attributes from
+          * 'body_appearance()' function.
+          * */
           body: body_appearance()
         ),
       )
