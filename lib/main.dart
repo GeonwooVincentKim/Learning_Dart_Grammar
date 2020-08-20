@@ -23,18 +23,6 @@ void main(){
   *  --> Reads Right-To-Left.
   * */
 
-
-//  runApp(
-//runApp(
-//    Container(
-//      alignment: Alignment.bottomCenter,
-//      child: Text(
-//          "Hello Flutter",
-//          textDirection: TextDirection.rtl
-//      ),
-//    )
-//);
-
 //  print("Hello World");
 //  runApp(
 //    new MaterialApp(
