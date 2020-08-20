@@ -24,18 +24,7 @@ void main(){
   *  --> Reads Right-To-Left.
   * */
   runApp(
-    new MaterialApp(
-      title: "My Flutter Application",
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("App Scene"),),
-          /*
-          * Name and import body attributes from
-          * 'body_appearance()' function.
-          */
-        body: body_appearance(),
-      ),
-    )
+
   );
 }
 
@@ -74,7 +63,19 @@ class MyFlutterApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    throw UnimplementedError();
+    // throw UnimplementedError();
+    return MaterialApp(
+      title: "My Flutter Application",
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("App Scene"),),
+        /*
+          * Name and import body attributes from
+          * 'body_appearance()' function.
+          */
+        body: body_appearance(),
+      ),
+    );
   }
 
 }
