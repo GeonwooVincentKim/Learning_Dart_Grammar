@@ -69,6 +69,7 @@ void main(){
               Text(
                 "Hello Flutter",
                 textDirection: TextDirection.ltr,
+                style: TextStyle(color: Colors.white, fontSize: 40.0),
               ),
 
             ],
