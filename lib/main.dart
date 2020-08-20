@@ -61,25 +61,29 @@ void main(){
   runApp(
     new MaterialApp(
       title: "My Flutter Application",
-//      home: new Material(
-//        color: Colors.lightBlueAccent,
-//        child: Center(
-//          child: Column(
-//            children: <Widget>[
-//              Text(
-//                "Hello Flutter",
-//                textDirection: TextDirection.ltr,
-//                style: TextStyle(color: Colors.white, fontSize: 40.0),
-//              ),
-//              Text(
-//                "Hi Flutter",
-//                textDirection: TextDirection.rtl,
-//                style: TextStyle(color: Colors.white, fontSize: 40.0),
-//              ),
-//            ],
-//          ),
-//        ),
-//      ),
-    ),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("App Scene"),),
+          body: Material(
+            color: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                children: <Widget>[
+                  Text(
+                    "Hello Flutter",
+                    textDirection: TextDirection.ltr,
+                    style: TextStyle(color: Colors.white, fontSize: 40.0),
+                  ),
+                  Text(
+                    "Hi Flutter",
+                    textDirection: TextDirection.rtl,
+                    style: TextStyle(color: Colors.white, fontSize: 40.0),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ),
+      )
   );
 }
