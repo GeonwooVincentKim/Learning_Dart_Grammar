@@ -34,6 +34,9 @@ void main(){
           /*
           * Name and import body attributes from
           * 'body_appearance()' function.
+          *
+          * But it doesn't display contents
+          * which codes are part of 'body_appearance()'.
           * */
         body: test_print(),
       ),
