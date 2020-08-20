@@ -9,4 +9,12 @@ void main(){
 
   bool b = true;
   bool b2 = i < 10;
+
+  int ia = 10;
+  double da = 20.0;
+  if(ia != da){
+    print("It's Different Type");
+  }else{
+    print("It's Same Type");
+  }
 }
