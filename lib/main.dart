@@ -70,10 +70,25 @@ void main(){
           * Name and import body attributes from
           * 'body_appearance()' function.
           * */
-          body: Material(g
-            body_appearance(),
+        body: Material(
+          color: Colors.lightBlueAccent,
+          child: Center(
+            child: Column(
+              children: <Widget>[
+                Text(
+                  "Hello Flutter",
+                  textDirection: TextDirection.ltr,
+                  style: TextStyle(color: Colors.white, fontSize: 40.0),
+                ),
+                Text(
+                  "Hi Flutter",
+                  textDirection: TextDirection.rtl,
+                  style: TextStyle(color: Colors.white, fontSize: 40.0),
+                ),
+              ],
+            ),
           ),
-
+        )
       ),
     )
   );
