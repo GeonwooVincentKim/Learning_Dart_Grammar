@@ -21,24 +21,24 @@ void subsitute_code(){
 //        )
 //    );
 
-//    runApp(
-//      new MaterialApp(
-//        title: "My Flutter Application",
-//        home: new Material(
-//          color: Colors.lightBlueAccent,
-//          child: Center(
-//            child: Text(
-//              "Hello Flutter",
-//              textDirection: TextDirection.ltr,
-//              style: TextStyle(color: Colors.white, fontSize: 40.0),
-//            ),
-//          ),
-//        ),
-//      )
-//    );
+    return runApp(
+      new MaterialApp(
+        title: "My Flutter Application",
+        home: new Material(
+          color: Colors.lightBlueAccent,
+          child: Center(
+            child: Text(
+              "Hello Flutter",
+              textDirection: TextDirection.ltr,
+              style: TextStyle(color: Colors.white, fontSize: 40.0),
+            ),
+          ),
+        ),
+      )
+    );
 }
 
 // ignore: non_constant_identifier_names
 test_print(){
-   print("Hello World");
+   return print("Hello World");
 }
