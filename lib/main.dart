@@ -64,9 +64,17 @@ body_appearance() {
 
 
 /*
-* StatelessWidget --> Super-Class.
-* MyFlutterApp --> Supply-Class.
+* 1. StatelessWidget --> Super-Class.
+* 2. MyFlutterApp --> Supply-Class.
+*
+* 3. Successfully set and import Widget Module and
+* build function.
 * */
 class MyFlutterApp extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    throw UnimplementedError();
+  }
 
 }
