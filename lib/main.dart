@@ -46,7 +46,7 @@ void main(){
   runApp(
     new MaterialApp(
       title: "My Flutter Application",
-      home: Material(
+      home: new Material(
         color: Colors.lightBlueAccent,
         child: Center(
           child: Text(
