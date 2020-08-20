@@ -22,29 +22,6 @@ void main(){
   *  2. rtl
   *  --> Reads Right-To-Left.
   * */
-
-  // ignore: non_constant_identifier_names
-  body_appearance(){
-    Material(
-      color: Colors.lightBlueAccent,
-      child: Center(
-        child: Column(
-          children: <Widget>[
-            Text(
-              "Hello Flutter",
-              textDirection: TextDirection.ltr,
-              style: TextStyle(color: Colors.white, fontSize: 40.0),
-            ),
-            Text(
-              "Hi Flutter",
-              textDirection: TextDirection.rtl,
-              style: TextStyle(color: Colors.white, fontSize: 40.0),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
 //  runApp(
 //    Center(
 //      child: Text(
@@ -95,4 +72,27 @@ void main(){
         ),
       )
   );
+  void body_appearance(){
+    Material(
+      color: Colors.lightBlueAccent,
+      child: Center(
+        child: Column(
+          children: <Widget>[
+            Text(
+              "Hello Flutter",
+              textDirection: TextDirection.ltr,
+              style: TextStyle(color: Colors.white, fontSize: 40.0),
+            ),
+            Text(
+              "Hi Flutter",
+              textDirection: TextDirection.rtl,
+              style: TextStyle(color: Colors.white, fontSize: 40.0),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
 }
+
+// ignore: non_constant_identifier_names
