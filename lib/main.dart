@@ -28,16 +28,11 @@ void main(){
       title: "My Flutter Application",
       home: Scaffold(
         appBar: AppBar(
-          title: Text("App Scene"),
-
-        ),
+          title: Text("App Scene"),),
           /*
           * Name and import body attributes from
           * 'body_appearance()' function.
-          *
-          * But it doesn't display contents
-          * which codes are part of 'body_appearance()'.
-          * */
+          */
         body: body_appearance(),
       ),
     )
