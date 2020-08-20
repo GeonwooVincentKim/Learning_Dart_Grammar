@@ -11,13 +11,29 @@ void subsitute_code(){
 //      )
 //    );
 
+//    runApp(
+//        Container(
+//          alignment: Alignment.bottomCenter,
+//          child: Text(
+//              "Hello Flutter",
+//              textDirection: TextDirection.rtl
+//          ),
+//        )
+//    );
+
     runApp(
-        Container(
-          alignment: Alignment.bottomCenter,
-          child: Text(
+      new MaterialApp(
+        title: "My Flutter Application",
+        home: new Material(
+          color: Colors.lightBlueAccent,
+          child: Center(
+            child: Text(
               "Hello Flutter",
-              textDirection: TextDirection.rtl
+              textDirection: TextDirection.ltr,
+              style: TextStyle(color: Colors.white, fontSize: 40.0),
+            ),
           ),
-        )
+        ),
+      )
     );
 }

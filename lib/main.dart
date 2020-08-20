@@ -24,21 +24,7 @@ void main(){
   * */
 
 //  print("Hello World");
-//  runApp(
-//    new MaterialApp(
-//      title: "My Flutter Application",
-//      home: new Material(
-//        color: Colors.lightBlueAccent,
-//        child: Center(
-//          child: Text(
-//            "Hello Flutter",
-//            textDirection: TextDirection.ltr,
-//            style: TextStyle(color: Colors.white, fontSize: 40.0),
-//          ),
-//        ),
-//      ),
-//    )
-//  );
+
   runApp(
     new MaterialApp(
       title: "My Flutter Application",
