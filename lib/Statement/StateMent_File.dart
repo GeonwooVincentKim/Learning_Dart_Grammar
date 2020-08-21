@@ -43,4 +43,8 @@ type_inference(){
   // such as 'dartpad.dev'.
   // Combine two strings
   assert("Hello" + "World" == "Hello World");
+
+  var num = 0;
+  print(num++);  // num = 0, because calculates later.
+  print(++num);  // num = 2, because calculates first.
 }
