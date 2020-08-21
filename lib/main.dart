@@ -65,6 +65,7 @@ class MyFlutterApp extends StatelessWidget{
     // TODO: implement build
     // throw UnimplementedError();
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "My Flutter Application",
       home: Scaffold(
         appBar: AppBar(
