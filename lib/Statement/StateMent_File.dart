@@ -18,3 +18,14 @@ void main(){
     print("It's Same Type");
   }
 }
+
+// ignore: non_constant_identifier_names
+type_inference(){
+  var i = 10;   // int-type
+  var d = 10.0;   // double-type
+  var s = 'hello';   // String-type
+  var s2 = "hello";   // String-type
+  var b = true;   // Boolean-type
+  var b2 = i < 10;   // Boolean-type
+  var b3 = s.isEmpty;   // Boolean-type
+}
