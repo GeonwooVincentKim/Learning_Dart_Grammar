@@ -2,16 +2,6 @@ import 'package:flutter/material.dart';
 
 // ignore: non_constant_identifier_names
 void subsitute_code(){
-//    runApp(
-//        Container(
-//          alignment: Alignment.bottomCenter,
-//          child: Text(
-//              "Hello Flutter",
-//              textDirection: TextDirection.rtl
-//          ),
-//        )
-//    );
-
 //    return runApp(
 //      new MaterialApp(
 //        title: "My Flutter Application",
@@ -31,14 +21,27 @@ void subsitute_code(){
 
 // ignore: non_constant_identifier_names
 CenterText() {
-     runApp(
-      Center(
+  runApp(
+    Center(
+      child: Text(
+          "Hello Flutter",
+          textDirection: TextDirection.ltr
+      ),
+    )
+  );
+}
+
+// ignore: non_constant_identifier_names
+AlignBottomText(){
+  runApp(
+      Container(
+        alignment: Alignment.bottomCenter,
         child: Text(
             "Hello Flutter",
-            textDirection: TextDirection.ltr
+            textDirection: TextDirection.rtl
         ),
       )
-    );
+  );
 }
 
 // ignore: non_constant_identifier_names
