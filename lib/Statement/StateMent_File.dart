@@ -31,5 +31,11 @@ type_inference(){
 
   // Final cannot change values.
   final String name = "Gil-Dong Hong";
-  // name = "Kkeong-jeong Im";
+
+  assert(2 + 3 == 5);
+  assert(5 - 2 == 3);
+  assert(3 * 5 == 15);
+  assert(5 / 2 == 2.5);
+  assert(5 ~/2 == 2);  // Quotient
+  assert(5 % 2 == 1);  // Remainder
 }
