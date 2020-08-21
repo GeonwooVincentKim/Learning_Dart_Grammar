@@ -48,3 +48,11 @@ type_inference(){
   print(num++);  // num = 0, because calculates later.
   print(++num);  // num = 2, because calculates first.
 }
+
+// ignore: non_constant_identifier_names
+type_search(){
+  int a = 10;
+  if(a is int){
+    print("Integer");
+  }
+}
