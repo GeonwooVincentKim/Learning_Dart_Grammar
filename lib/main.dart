@@ -24,6 +24,15 @@ import 'package:flutter_dart_grammer/subsitute_code.dart';
   *
 
   Function Expressions
+  1. void main() { runApp(net MyFlutterApp()); }
+  -> This shape of function contains one-statement.
+  -> so this is not a double-parameter,
+     is a single-parameter.
+  2. void main() => runApp(new MyFlutterApp());
+  -> Put a Fat-Arrow.
+  -> Above allows a developer to accomplish the same
+     result with fewer lines of code and approximately
+     half the typing.
 
   Arrow-Function
   * An Arrow-Function expression has a shorter syntax
