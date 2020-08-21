@@ -21,13 +21,13 @@ import 'package:flutter_dart_grammer/subsitute_code.dart';
   *
   *  2. rtl
   *  --> Reads Right-To-Left.
-  * */
+  *
 
-/*
-* An Arrow-Function expression has a shorter syntax
-* compared to function expressions and lexically binds
-* the 'this' value.
-* */
+  Arrow-Function
+  * An Arrow-Function expression has a shorter syntax
+  * compared to function expressions and lexically binds
+  * the 'this' value.
+*/
 void main() =>
     runApp(
       new MyFlutterApp()
