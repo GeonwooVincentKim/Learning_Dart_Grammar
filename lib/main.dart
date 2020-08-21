@@ -22,11 +22,6 @@ import 'package:flutter_dart_grammer/subsitute_code.dart';
   *  2. rtl
   *  --> Reads Right-To-Left.
   * */
-/*void main(){
-  runApp(
-      new MyFlutterApp()
-  );
-}*/
 
 /*
 * An Arrow-Function expression has a shorter syntax
