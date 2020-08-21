@@ -2,7 +2,7 @@
 * 'material.dart' was developed by Google.
 *  */
 import "package:flutter/material.dart";
-import 'package:flutter_dart_grammer/subsitute_code.dart';
+import 'sub_code/subsitute_code.dart';
 
 import 'app_screens/first_screen.dart';
 
