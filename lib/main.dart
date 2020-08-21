@@ -22,17 +22,21 @@ import 'package:flutter_dart_grammer/subsitute_code.dart';
   *  2. rtl
   *  --> Reads Right-To-Left.
   * */
-// Angular-Backend
+void main(){
+  runApp(
+      new MyFlutterApp()
+  );
+}
+
+/*
+*
+* */
 void main() =>
     runApp(
       new MyFlutterApp()
     );
 
-void main(){
-  runApp(
-    new MyFlutterApp()
-  );
-}
+
 
 
 /*
