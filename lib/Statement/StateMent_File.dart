@@ -55,4 +55,19 @@ type_search(){
   if(a is int){
     print("Integer");
   }
+
+  String text = "Hello";
+  if(text is! int){
+    print("It's not a number");
+  }
+}
+
+// ignore: non_constant_identifier_names
+type_convert(){
+  var c = 30.5;
+  // int d = c as int; // occur error.
+
+  dynamic d = 30.5;
+  num n = d;  // Can skipping 'as num;'.
+  print(n);
 }
