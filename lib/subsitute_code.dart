@@ -19,6 +19,13 @@ void subsitute_code(){
 //    );
 }
 
+
+// ignore: non_constant_identifier_names
+test_print(){
+  return print("Hello World");
+}
+
+
 // ignore: non_constant_identifier_names
 CenterText() {
   runApp(
@@ -30,6 +37,7 @@ CenterText() {
     )
   );
 }
+
 
 // ignore: non_constant_identifier_names
 AlignBottomText(){
@@ -44,10 +52,6 @@ AlignBottomText(){
   );
 }
 
-// ignore: non_constant_identifier_names
-test_print(){
-   return print("Hello World");
-}
 
 // ignore: non_constant_identifier_names
 body_appearance() {
