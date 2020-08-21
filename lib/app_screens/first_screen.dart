@@ -6,20 +6,20 @@ class FirstScreen extends StatelessWidget {
     return Material(
       color: Colors.lightBlueAccent,
       child: Center(
-        child: Column(
-          children: <Widget>[
-            Text(
-              "Hello Flutter",
-              textDirection: TextDirection.ltr,
-              style: TextStyle(color: Colors.white, fontSize: 40.0),
-            ),
-            Text(
-              "Hi Flutter",
-              textDirection: TextDirection.rtl,
-              style: TextStyle(color: Colors.white, fontSize: 40.0),
-            ),
-          ],
-        ),
+//        child: Column(
+//          children: <Widget>[
+          child: Text(
+            "Hello Flutter",
+            textDirection: TextDirection.ltr,
+            style: TextStyle(color: Colors.white, fontSize: 40.0),
+          ),
+//            Text(
+//              "Hi Flutter",
+//              textDirection: TextDirection.rtl,
+//              style: TextStyle(color: Colors.white, fontSize: 40.0),
+//            ),
+//          ],
+//        ),
       ),
     );
   }
