@@ -28,10 +28,7 @@ import 'package:flutter_dart_grammer/subsitute_code.dart';
   * compared to function expressions and lexically binds
   * the 'this' value.
 */
-void main() =>
-    runApp(
-      new MyFlutterApp()
-    );
+void main() => runApp(new MyFlutterApp());
 
 
 
