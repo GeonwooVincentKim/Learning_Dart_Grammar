@@ -80,6 +80,11 @@ class MyFlutterApp extends StatelessWidget{
 
 }
 
+
+/*
+* Class 'body_appearance' take charge of 'body' part
+* in 'MaterialApp', which function from 'MyFlutterApp'.
+* */
 // ignore: camel_case_types
 class body_appearance extends StatelessWidget{
   @override
