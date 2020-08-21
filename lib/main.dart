@@ -29,7 +29,9 @@ void main(){
 }
 
 /*
-*
+* An Arrow-Function expression has a shorter syntax
+* compared to function expressions and lexically binds
+* the 'this' value.
 * */
 void main() =>
     runApp(
