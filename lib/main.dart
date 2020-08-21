@@ -81,6 +81,11 @@ class MyFlutterApp extends StatelessWidget{
 }
 
 // ignore: camel_case_types
-class body_appearance {
+class body_appearance extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    throw UnimplementedError();
+  }
 
 }
