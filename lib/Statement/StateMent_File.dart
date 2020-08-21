@@ -28,4 +28,8 @@ type_inference(){
   var b = true;   // Boolean-type
   var b2 = i < 10;   // Boolean-type
   var b3 = s.isEmpty;   // Boolean-type
+
+
+  final String name = "Gil-Dong Hong";
+  name = "Kkeong-jeong Im";
 }
