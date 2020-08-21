@@ -38,4 +38,9 @@ type_inference(){
   assert(5 / 2 == 2.5);
   assert(5 ~/2 == 2);  // Quotient
   assert(5 % 2 == 1);  // Remainder
+
+  // It works, but it won't works on the web
+  // such as 'dartpad.dev'.
+  // Combine two strings
+  assert("Hello" + "World" == "Hello World");
 }
