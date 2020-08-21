@@ -3,15 +3,6 @@ import 'package:flutter/material.dart';
 // ignore: non_constant_identifier_names
 void subsitute_code(){
 //    runApp(
-//      Center(
-//        child: Text(
-//            "Hello Flutter",
-//            textDirection: TextDirection.ltr
-//        ),
-//      )
-//    );
-
-//    runApp(
 //        Container(
 //          alignment: Alignment.bottomCenter,
 //          child: Text(
@@ -36,8 +27,18 @@ void subsitute_code(){
 //        ),
 //      )
 //    );
+}
 
-
+// ignore: non_constant_identifier_names
+CenterText() {
+     runApp(
+      Center(
+        child: Text(
+            "Hello Flutter",
+            textDirection: TextDirection.ltr
+        ),
+      )
+    );
 }
 
 // ignore: non_constant_identifier_names
