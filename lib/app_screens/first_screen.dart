@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 
 class FirstScreen extends StatelessWidget {
@@ -14,4 +16,9 @@ class FirstScreen extends StatelessWidget {
       ),
     );
   }
+
+  int generateLuckyNumber(){
+    var random = Random();
+  }
+
 }
