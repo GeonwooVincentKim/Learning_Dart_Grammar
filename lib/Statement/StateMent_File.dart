@@ -82,3 +82,8 @@ type_convert(){
 int f(int x, int z){
   return x + z + 10;
 }
+
+// The Function without parameter.
+String sf(){
+  return "Hello";
+}
