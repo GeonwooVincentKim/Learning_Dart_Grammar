@@ -17,6 +17,10 @@ class Person{
 }
 
 
+(number) {
+  return number %2 == 0;
+};
+
 void main(){
   // var myClass = MyClass();
   print(MyClass.isEven(10));
