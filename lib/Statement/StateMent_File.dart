@@ -1,6 +1,13 @@
 import "package:flutter/material.dart";
 
+String _name = "홍길동";
+int _age = 20;
+
 void main(){
+  print("$_name 은 $_age 살입니다.");
+  print("$_name 은 ${_name.length} 글자입니다.");
+  print("10년 후에는 ${_age + 10}살입니다.");
+
   String Name;
   Name = "홍길동";
 
