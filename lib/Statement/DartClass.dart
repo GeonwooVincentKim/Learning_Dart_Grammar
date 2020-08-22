@@ -9,6 +9,12 @@ class MyClass{
 }
 
 
+class Person{
+  String name;
+  int age;
+  Person(this.name, {this.age});
+  void greeting() => print("안녕하세요, 저는 $name입니다");
+}
 void main(){
   // var myClass = MyClass();
   print(MyClass.isEven(10));
