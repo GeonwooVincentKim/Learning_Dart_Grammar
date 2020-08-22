@@ -4,7 +4,6 @@
 import "package:flutter/material.dart";
 import 'sub_code/subsitute_code.dart';
 
-import '../app_screens/first_screen.dart';
 import 'app_screens/first_screen.dart';
 
 
