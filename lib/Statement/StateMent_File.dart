@@ -87,3 +87,8 @@ int f(int x, int z){
 String sf(){
   return "Hello";
 }
+
+// It's not 'if' phrase, it just a name of function.
+void iF(int x){
+  print(x);
+}
