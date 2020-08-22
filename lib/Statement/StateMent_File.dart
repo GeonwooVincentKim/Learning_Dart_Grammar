@@ -18,7 +18,7 @@ void main(){
     print("It's Same Type");
   }
 
-  var result = f(10);
+  var result = f(10, 20);
 }
 
 // ignore: non_constant_identifier_names
@@ -75,9 +75,9 @@ type_convert(){
 }
 
 // ignore: non_constant_identifier_names, missing_return
-int f(int x){
-  return x + 10;
-}
+//int f(int x){
+//  return x + 10;
+//}
 
 int f(int x, int z){
   return x + z + 10;
