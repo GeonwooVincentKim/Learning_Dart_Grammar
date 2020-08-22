@@ -17,6 +17,8 @@ void main(){
   }else{
     print("It's Same Type");
   }
+
+  var result = f(10);
 }
 
 // ignore: non_constant_identifier_names
@@ -70,4 +72,9 @@ type_convert(){
   dynamic d = 30.5;
   num n = d;  // Can skipping 'as num;'.
   print(n);
+}
+
+// ignore: non_constant_identifier_names, missing_return
+int f(int x){
+  return x + 10;
 }
