@@ -3,6 +3,11 @@ import "package:flutter/material.dart";
 String _name = "홍길동";
 int _age = 20;
 
+// The highest-rank Function
+bool isEven(int number){
+  return number % 2 == 0;
+}
+
 void main(){
   print("$_name 은 $_age 살입니다.");
   print("$_name 은 ${_name.length} 글자입니다.");
@@ -26,6 +31,7 @@ void main(){
   }
 
   var result = f(10, 20);
+  print(isEven(10));
 }
 
 // ignore: non_constant_identifier_names
@@ -102,3 +108,4 @@ void iF(int x){
 
 // void greeting(String greet) => print("Hello $greet");
 greeting(String greet) => print("Hello $greet");
+
