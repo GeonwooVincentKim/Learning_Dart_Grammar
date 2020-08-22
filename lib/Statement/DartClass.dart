@@ -20,6 +20,7 @@ class Person{
 
 person (number) => number % 2 == 0;
 void something({String name, int age}) {}
+void something2(String name, {int age = 19}) {}
 
 void main(){
   // var myClass = MyClass();
@@ -27,8 +28,10 @@ void main(){
   Person person = Person("kkw", age: 19);
   person.greeting();
 
-  something(name: "홍길동", age: 10);
+  something(name: "홍길동", age: 19);
   something(name: "홍길동");
-  something(age: 10);
+  something(age: 19);
   something();
+
+  something2("김길동", age: 19);
 }
