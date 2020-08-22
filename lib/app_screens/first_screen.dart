@@ -9,7 +9,7 @@ class FirstScreen extends StatelessWidget {
       color: Colors.lightBlueAccent,
       child: Center(
         child: Text(
-          "Hello Flutter",
+          "Your Lucky Number is ${generateLuckyNumber()}",
           textDirection: TextDirection.ltr,
           style: TextStyle(color: Colors.white, fontSize: 40.0),
         ),
