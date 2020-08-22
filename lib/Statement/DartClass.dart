@@ -10,6 +10,6 @@ class MyClass{
 
 
 void main(){
-  var myClass = MyClass();
-  print(myClass.isEven(10));
+  // var myClass = MyClass();
+  print(MyClass.isEven(10));
 }
