@@ -9,5 +9,7 @@ class MyClass{
 }
 
 
-var myClass = MyClass();
-print(myClass.isEven(10));
+void main(){
+  var myClass = MyClass();
+  print(myClass.isEven(10));
+}
