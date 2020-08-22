@@ -7,3 +7,7 @@ class MyClass{
     return number % 2== 0;
   }
 }
+
+
+var myClass = MyClass();
+print(myClass.isEven(10));
