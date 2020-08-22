@@ -78,3 +78,7 @@ type_convert(){
 int f(int x){
   return x + 10;
 }
+
+int f(int x, int z){
+  return x + z + 10;
+}
