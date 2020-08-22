@@ -17,8 +17,15 @@ class FirstScreen extends StatelessWidget {
     );
   }
 
+  // ignore: missing_return
   int generateLuckyNumber(){
     var random = Random();
+
+    // Since the random.nextInt is the digital-value.
+    // So I assigned it to the Integer-Variable.
+    int luckyNumber = random.nextInt(10);
+
+    return luckyNumber;
   }
 
 }
