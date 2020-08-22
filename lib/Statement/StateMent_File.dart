@@ -93,4 +93,5 @@ void iF(int x){
   print(x);
 }
 
-void greeting(String greet) => print("Hello $greet");
+// void greeting(String greet) => print("Hello $greet");
+greeting(String greet) => print("Hello $greet");
