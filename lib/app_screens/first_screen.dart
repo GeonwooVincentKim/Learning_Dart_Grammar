@@ -9,9 +9,9 @@ class FirstScreen extends StatelessWidget {
       color: Colors.lightBlueAccent,
       child: Center(
         child: Text(
-          "Your Lucky Number is ${generateLuckyNumber()}",
+          "Your lucky-number is ${generateLuckyNumber()}",
           textDirection: TextDirection.ltr,
-          style: TextStyle(color: Colors.white, fontSize: 40.0),
+          style: TextStyle(color: Colors.white, fontSize: 35.0),
         ),
       ),
     );
