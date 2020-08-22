@@ -9,7 +9,7 @@ class FirstScreen extends StatelessWidget {
       color: Colors.lightBlueAccent,
       child: Center(
         child: Text(
-          "Your lucky-number is ${generateLuckyNumber()}",
+          generateLuckyNumber(),
           textDirection: TextDirection.ltr,
           style: TextStyle(color: Colors.white, fontSize: 35.0),
         ),
@@ -18,14 +18,14 @@ class FirstScreen extends StatelessWidget {
   }
 
   // ignore: missing_return
-  int generateLuckyNumber(){
+  String generateLuckyNumber(){
     var random = Random();
 
     // Since the random.nextInt is the digital-value.
     // So I assigned it to the Integer-Variable.
     int luckyNumber = random.nextInt(10);
 
-    return luckyNumber;
+    return "Your lucky-number is $luckyNumber";
   }
 
 }
