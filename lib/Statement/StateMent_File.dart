@@ -92,3 +92,5 @@ String sf(){
 void iF(int x){
   print(x);
 }
+
+void greeting(String greet) => print("Hello $greet");
