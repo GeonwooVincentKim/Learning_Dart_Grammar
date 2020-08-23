@@ -20,11 +20,6 @@ class Home extends StatelessWidget{
       child: Container(
           alignment: Alignment.center,
           color: Colors.deepPurple,
-          // It doesn't work when you only write width-size and height-size.
-          // (Only display Container only)
-
-          // width: 200.0,
-          // height: 100.0,
 
           // display margin to all of margin.
           // margin: EdgeInsets.all(15.0),
