@@ -21,8 +21,7 @@ class Home extends StatelessWidget{
           alignment: Alignment.center,
           color: Colors.deepPurple,
 
-          // display margin to all of margin.
-          // margin: EdgeInsets.all(15.0),
+
           margin: EdgeInsets.only(left: 35.0, top: 50.0),
           child: Text("Flight", textDirection: TextDirection.ltr),
       )
