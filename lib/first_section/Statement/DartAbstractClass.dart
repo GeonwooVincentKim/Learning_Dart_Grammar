@@ -43,6 +43,13 @@ class DarkGoblin extends Goblin with Hero {
   void attack(){
     print("Attack the mark!!");
   }
+
+  void fly() {}
+
+  @override
+  void run(){
+    super.run();
+  }
 }
 
 
