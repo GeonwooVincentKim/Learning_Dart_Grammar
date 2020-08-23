@@ -13,13 +13,16 @@ class Home extends StatelessWidget{
     // apply to return phrase.
     // return center_container();
 
-    return Container(
-      alignment: Alignment.center,
-      color: Colors.deepPurple,
-      // It doesn't work when you only write width-size and height-size.
-      width: 200.0,
-      height: 200.0,
-      child: Text("Flight", textDirection: TextDirection.ltr,)
+    // Only display center-part.
+    return Center(
+      child: Container(
+          alignment: Alignment.center,
+          color: Colors.deepPurple,
+          // It doesn't work when you only write width-size and height-size.
+          width: 200.0,
+          height: 100.0,
+          child: Text("Flight", textDirection: TextDirection.ltr),
+      )
     );
   }
 }
