@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dart_grammer/second_section/container/container_position.dart';
+import 'package:flutter_dart_grammer/second_section/container/margin_position.dart';
 
 
 class Home extends StatelessWidget{
@@ -20,9 +21,6 @@ class Home extends StatelessWidget{
       child: Container(
         alignment: Alignment.center,
         color: Colors.deepPurple,
-
-        margin: EdgeInsets.only(left: 35.0, top: 50.0),
-        padding: EdgeInsets.all(120.0),
         child: Text("Flight", textDirection: TextDirection.ltr),
       )
     );
