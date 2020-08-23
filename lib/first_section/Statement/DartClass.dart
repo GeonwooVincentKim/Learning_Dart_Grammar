@@ -11,10 +11,11 @@ class MyClass{
 
 class Person{
   String name;
-  int age;
-  Person(this.name, {this.age});
+  int _age;
+  // Person(this.name, {this.age});
   void greeting() => print("안녕하세요, 저는 $name입니다");
 
+  int get age => _age;
 }
 
 person (number) => number % 2 == 0;
@@ -33,4 +34,7 @@ void main(){
   something();
 
   something2("김길동", age: 19);
+
+  var person = Person();
+  print(person.age);  // Print value of '_age'.
 }
