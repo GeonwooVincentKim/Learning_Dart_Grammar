@@ -25,6 +25,8 @@ center_container(){
 // ignore: non_constant_identifier_names
 bottom_left_container(){
   return Container(
-
+    alignment: Alignment.bottomLeft,
+    color: Colors.deepPurple,
+    child: Text("Flight", textDirection: TextDirection.ltr,)
   );
 }
