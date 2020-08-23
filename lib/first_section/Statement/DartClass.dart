@@ -69,4 +69,9 @@ void main(){
 
   var person = Person();
   print(person.age);  // Print value of '_age'.
+
+  var hero = SuperHero();
+  hero.run();   // ok
+  hero.fly();   // ok
+  print(hero.name);  // 영웅(Korean)
 }
