@@ -38,22 +38,6 @@ class Hero {
 }
 
 
-class SuperHero extends Hero{
-  // Inherited from Hero
-  // Re-define Parent's run() method(Override).
-  @override
-  void run(){
-    super.run();  // Execute parent's run().
-    this.fly();  // Executes fly() additionally.
-  }
-
-  void fly() {}
-}
-
-
-
-
-
 person (number) => number % 2 == 0;
 void something({String name, int age}) {}
 void something2(String name, {int age = 19}) {}
