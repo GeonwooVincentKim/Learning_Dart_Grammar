@@ -18,12 +18,12 @@ class Home extends StatelessWidget{
     // currently included Container-Attribute.
     return Center(
       child: Container(
-          alignment: Alignment.center,
-          color: Colors.deepPurple,
+        alignment: Alignment.center,
+        color: Colors.deepPurple,
 
-
-          margin: EdgeInsets.only(left: 35.0, top: 50.0),
-          child: Text("Flight", textDirection: TextDirection.ltr),
+        margin: EdgeInsets.only(left: 35.0, top: 50.0),
+        padding: EdgeInsets.all(120.0),
+        child: Text("Flight", textDirection: TextDirection.ltr),
       )
     );
   }
