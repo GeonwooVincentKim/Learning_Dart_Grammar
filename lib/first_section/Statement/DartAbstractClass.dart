@@ -6,3 +6,9 @@ abstract class Monster{
 }
 
 
+class Goblin implements Monster {
+  @override
+  void attack(){
+    print("Attack the Goblin");
+  }
+}
