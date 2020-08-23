@@ -23,7 +23,7 @@ margin_wh(){
 // You can handle the size by 'only() parameter',
 // 'left', 'top', 'bottom', 'right'.
 // ignore: non_constant_identifier_names
-margin_edge_insets_only(){
+margin_edge_insets_only_parameter_one(){
   return Center(
       child: Container(
         alignment: Alignment.center,
@@ -32,6 +32,22 @@ margin_edge_insets_only(){
         // display margin to all of margin.
         // margin: EdgeInsets.all(15.0),
         margin: EdgeInsets.only(left: 35.0),
+        child: Text("Flight", textDirection: TextDirection.ltr),
+      )
+  );
+}
+
+
+// ignore: non_constant_identifier_names
+margin_edge_insets_only_paremeter_two(){
+  return Center(
+      child: Container(
+        alignment: Alignment.center,
+        color: Colors.deepPurple,
+
+        // display margin to all of margin.
+        // margin: EdgeInsets.all(15.0),
+        margin: EdgeInsets.only(left: 35.0, top: 50.0),
         child: Text("Flight", textDirection: TextDirection.ltr),
       )
   );
