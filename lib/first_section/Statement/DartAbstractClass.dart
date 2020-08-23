@@ -12,3 +12,11 @@ class Goblin implements Monster {
     print("Attack the Goblin");
   }
 }
+
+
+class Bat implements Monster {
+  @override
+  void attack(){
+    print("Scratch!!");
+  }
+}
