@@ -19,20 +19,22 @@ class Goblin implements Monster {
 }
 
 
-class Bat implements Monster {
-  @override
-  void attack(){
-    print("Scratch!!");
-  }
-}
-
-
-
+//class Bat implements Monster {
+//  @override
+//  void attack(){
+//    print("Scratch!!");
+//  }
+//}
 
 
 class Bat implements Monster, Flyable {
   @override
   void attack(){
     print("Scratch!!");
+  }
+
+  @override
+  void fly(){
+    print("Fluttering");
   }
 }
