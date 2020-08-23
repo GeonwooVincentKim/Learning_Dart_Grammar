@@ -13,7 +13,7 @@ class Home extends StatelessWidget{
     // apply to return phrase.
     // return center_container();
 
-    // Only display center-part.
+    // Only display in center-part.
     // The Center-Attribute that only display Center part
     // currently included Container-Attribute.
     return Center(
