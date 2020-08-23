@@ -15,7 +15,6 @@ class Person{
   Person(this.name, {this.age});
   void greeting() => print("안녕하세요, 저는 $name입니다");
 
-
 }
 
 person (number) => number % 2 == 0;
@@ -25,8 +24,8 @@ void something2(String name, {int age = 19}) {}
 void main(){
   // var myClass = MyClass();
   print(MyClass.isEven(10));
-  Person person = Person("kkw", age: 19);
-  person.greeting();
+  // Person person = Person("kkw", age: 19);
+  // person.greeting();
 
   something(name: "홍길동", age: 19);
   something(name: "홍길동");
