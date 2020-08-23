@@ -14,6 +14,8 @@ class Home extends StatelessWidget{
     // return center_container();
 
     // Only display center-part.
+    // The Center-Attribute that only display Center part
+    // currently included Container-Attribute.
     return Center(
       child: Container(
           alignment: Alignment.center,
