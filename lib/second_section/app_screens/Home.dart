@@ -16,6 +16,7 @@ class Home extends StatelessWidget{
     return Container(
       alignment: Alignment.center,
       color: Colors.deepPurple,
+      // It doesn't work when you only write width-size and height-size.
       width: 200.0,
       height: 200.0,
       child: Text("Flight", textDirection: TextDirection.ltr,)
