@@ -16,6 +16,8 @@ class Home extends StatelessWidget{
     return Container(
       alignment: Alignment.center,
       color: Colors.deepPurple,
+      width: 200.0,
+      height: 200.0,
       child: Text("Flight", textDirection: TextDirection.ltr,)
     );
   }
