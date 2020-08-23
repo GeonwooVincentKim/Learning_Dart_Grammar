@@ -7,7 +7,7 @@ class Home extends StatelessWidget{
     // A Containers first surrounds the child with padding
     // and then applies additional constraints to the padded
     // extent (width and height).
-    return center_container()
+    return center_container();
   }
 }
 
@@ -18,5 +18,13 @@ center_container(){
     alignment: Alignment.center,
     color: Colors.deepPurple,
     child: Text("Flight", textDirection: TextDirection.ltr),
+  );
+}
+
+
+// ignore: non_constant_identifier_names
+bottom_left_container(){
+  return Container(
+
   );
 }
