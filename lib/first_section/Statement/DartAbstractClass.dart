@@ -6,6 +6,11 @@ abstract class Monster{
 }
 
 
+abstract class Flyable {
+  void fly();
+}
+
+
 class Goblin implements Monster {
   @override
   void attack(){
@@ -15,6 +20,17 @@ class Goblin implements Monster {
 
 
 class Bat implements Monster {
+  @override
+  void attack(){
+    print("Scratch!!");
+  }
+}
+
+
+
+
+
+class Bat implements Monster, Flyable {
   @override
   void attack(){
     print("Scratch!!");
