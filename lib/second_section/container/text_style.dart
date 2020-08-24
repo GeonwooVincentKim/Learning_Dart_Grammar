@@ -83,6 +83,7 @@ text_font_weight(){
 }
 
 
+// Font-Weight for Raleway, it sized 'w300'.
 // ignore: non_constant_identifier_names
 text_font_style(){
   return Center(
