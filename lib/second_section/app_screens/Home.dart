@@ -22,14 +22,15 @@ class Home extends StatelessWidget{
         alignment: Alignment.center,
         color: Colors.deepPurple,
         child: Text(
-            "Flight",
-            textDirection: TextDirection.ltr,
+          "Flight",
+          textDirection: TextDirection.ltr,
           style: TextStyle(
             decoration: TextDecoration.none,
             fontSize: 75.0,
             fontFamily: "Raleway",
             fontWeight: FontWeight.w700,
             fontStyle: FontStyle.italic,
+            color: Colors.white
           ),
         ),
       )

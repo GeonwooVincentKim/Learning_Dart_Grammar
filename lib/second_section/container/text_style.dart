@@ -126,3 +126,26 @@ text_font_style_700(){
       )
   );
 }
+
+
+// ignore: non_constant_identifier_names
+text_font_color(){
+  return Center(
+      child: Container(
+        alignment: Alignment.center,
+        color: Colors.deepPurple,
+        child: Text(
+          "Flight",
+          textDirection: TextDirection.ltr,
+          style: TextStyle(
+              decoration: TextDecoration.none,
+              fontSize: 75.0,
+              fontFamily: "Raleway",
+              fontWeight: FontWeight.w700,
+              fontStyle: FontStyle.italic,
+              color: Colors.white
+          ),
+        ),
+      )
+  );
+}
