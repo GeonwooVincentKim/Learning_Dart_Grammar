@@ -14,27 +14,29 @@ class Home extends StatelessWidget{
         child: Row(
           children: <Widget>[
             Text(
-              "Flight",
+              "Korean-Air",
               textDirection: TextDirection.ltr,
               style: TextStyle(
                   decoration: TextDecoration.none,
-                  fontSize: 75.0,
+                  fontSize: 35.0,
                   fontFamily: "Raleway",
                   fontWeight: FontWeight.w700,
                   fontStyle: FontStyle.italic,
                   color: Colors.white
               ),
             ),
-            Text(
-              "Flight",
-              textDirection: TextDirection.ltr,
-              style: TextStyle(
-                  decoration: TextDecoration.none,
-                  fontSize: 75.0,
-                  fontFamily: "Raleway",
-                  fontWeight: FontWeight.w700,
-                  fontStyle: FontStyle.italic,
-                  color: Colors.white
+            Expanded(
+              child: Text(
+                "From Seoul/Incheon to Oslo via Paris.",
+                textDirection: TextDirection.ltr,
+                style: TextStyle(
+                    decoration: TextDecoration.none,
+                    fontSize: 35.0,
+                    fontFamily: "Raleway",
+                    fontWeight: FontWeight.w700,
+                    fontStyle: FontStyle.italic,
+                    color: Colors.white
+                ),
               ),
             ),
           ],
