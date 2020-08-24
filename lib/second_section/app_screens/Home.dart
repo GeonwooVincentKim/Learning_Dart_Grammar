@@ -13,16 +13,18 @@ class Home extends StatelessWidget{
         color: Colors.deepPurple,
         child: Row(
           children: <Widget>[
-            Text(
-              "Korean-Air",
-              textDirection: TextDirection.ltr,
-              style: TextStyle(
-                  decoration: TextDecoration.none,
-                  fontSize: 35.0,
-                  fontFamily: "Raleway",
-                  fontWeight: FontWeight.w700,
-                  fontStyle: FontStyle.italic,
-                  color: Colors.white
+            Expanded(
+              child: Text(
+                "Korean-Air",
+                textDirection: TextDirection.ltr,
+                style: TextStyle(
+                    decoration: TextDecoration.none,
+                    fontSize: 28.0,
+                    fontFamily: "Raleway",
+                    fontWeight: FontWeight.w700,
+                    fontStyle: FontStyle.italic,
+                    color: Colors.white
+                ),
               ),
             ),
             Expanded(
@@ -31,7 +33,7 @@ class Home extends StatelessWidget{
                 textDirection: TextDirection.ltr,
                 style: TextStyle(
                     decoration: TextDecoration.none,
-                    fontSize: 35.0,
+                    fontSize: 25.0,
                     fontFamily: "Raleway",
                     fontWeight: FontWeight.w700,
                     fontStyle: FontStyle.italic,
@@ -41,9 +43,6 @@ class Home extends StatelessWidget{
             ),
           ],
         )
-
-
-
       )
     );
   }

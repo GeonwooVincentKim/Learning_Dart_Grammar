@@ -42,7 +42,7 @@ rows_non_expanded(){
 
 
 // ignore: non_constant_identifier_names
-rows_expanded(){
+rows_expanded_only_one(){
   return Center(
     child: Container(
       alignment: Alignment.center,
@@ -79,4 +79,10 @@ rows_expanded(){
       )
     )
   );
+}
+
+
+// ignore: non_constant_identifier_names
+rows_expanded_both(){
+
 }
