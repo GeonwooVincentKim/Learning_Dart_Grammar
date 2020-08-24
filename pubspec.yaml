@@ -69,11 +69,11 @@ flutter:
          - asset: fonts_applied/Raleway-LightItalic.ttf
            weight: 300
            style: italic
-#     - family: Trajan Pro
-#       fonts:
-#         - asset: fonts_applied/TrajanPro.ttf
-#         - asset: fonts_applied/TrajanPro_Bold.ttf
-#           weight: 700
+     - family: Roboto
+       fonts:
+         - asset: fonts_applied/TrajanPro.ttf
+         - asset: fonts_applied/TrajanPro_Bold.ttf
+           weight: 700
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
