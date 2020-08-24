@@ -21,7 +21,13 @@ class Home extends StatelessWidget{
       child: Container(
         alignment: Alignment.center,
         color: Colors.deepPurple,
-        child: Text("Flight", textDirection: TextDirection.ltr),
+        child: Text(
+            "Flight",
+            textDirection: TextDirection.ltr,
+          style: TextStyle(
+            decoration: TextDecoration.none
+          ),
+        ),
       )
     );
   }
