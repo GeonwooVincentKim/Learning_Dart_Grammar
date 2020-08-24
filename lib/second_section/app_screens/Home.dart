@@ -9,6 +9,7 @@ class Home extends StatelessWidget{
   Widget build(BuildContext context) {
     return Center(
       child: Container(
+        padding: EdgeInsets.only(left: 10.0, top: 40.0),
         alignment: Alignment.center,
         color: Colors.deepPurple,
         /*
@@ -17,6 +18,39 @@ class Home extends StatelessWidget{
          * */
         child: Column(
           children: <Widget>[
+            Row(
+              children: <Widget>[
+                Expanded(
+                  child: Text(
+                    "Korean-Air",
+                    textDirection: TextDirection.ltr,
+                    style: TextStyle(
+                        decoration: TextDecoration.none,
+                        fontSize: 30.0,
+                        fontFamily: "Raleway",
+                        fontWeight: FontWeight.w700,
+                        fontStyle: FontStyle.italic,
+                        color: Colors.white
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: Text(
+                    "From Seoul/Incheon to Oslo via Paris.",
+                    textDirection: TextDirection.ltr,
+                    style: TextStyle(
+                        decoration: TextDecoration.none,
+                        fontSize: 22.5,
+                        fontFamily: "Raleway",
+                        fontWeight: FontWeight.w700,
+                        fontStyle: FontStyle.italic,
+                        color: Colors.white
+                    ),
+                  ),
+                ),
+              ],
+            ),
+
             Row(
               children: <Widget>[
                 Expanded(
