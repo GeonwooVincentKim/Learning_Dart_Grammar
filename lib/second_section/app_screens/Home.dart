@@ -25,7 +25,8 @@ class Home extends StatelessWidget{
             "Flight",
             textDirection: TextDirection.ltr,
           style: TextStyle(
-            decoration: TextDecoration.none
+            decoration: TextDecoration.none,
+            fontSize: 75.0
           ),
         ),
       )
