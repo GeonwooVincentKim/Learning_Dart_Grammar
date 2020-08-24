@@ -44,5 +44,40 @@ text_font_size(){
 
 // ignore: non_constant_identifier_names
 text_font_family(){
+  return Center(
+      child: Container(
+        alignment: Alignment.center,
+        color: Colors.deepPurple,
+        child: Text(
+          "Flight",
+          textDirection: TextDirection.ltr,
+          style: TextStyle(
+              decoration: TextDecoration.none,
+              fontSize: 75.0,
+              fontFamily: "Raleway",
+          ),
+        ),
+      )
+  );
+}
 
+
+// ignore: non_constant_identifier_names
+text_font_weight(){
+  return Center(
+      child: Container(
+        alignment: Alignment.center,
+        color: Colors.deepPurple,
+        child: Text(
+          "Flight",
+          textDirection: TextDirection.ltr,
+          style: TextStyle(
+              decoration: TextDecoration.none,
+              fontSize: 75.0,
+              fontFamily: "Raleway",
+              fontWeight: FontWeight.w300
+          ),
+        ),
+      )
+  );
 }
