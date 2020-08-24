@@ -36,3 +36,13 @@ text_font_size(){
       )
   );
 }
+
+
+// From now, apply downloaded text-attributes (font)
+// To this function, 'text_font_family' and
+// 'text_font_weight'.
+
+// ignore: non_constant_identifier_names
+text_font_family(){
+
+}
