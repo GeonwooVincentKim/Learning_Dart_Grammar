@@ -97,7 +97,7 @@ class Home extends StatelessWidget{
 class FlightImageAsset extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    AssetImage assetImage = AssetImage('images/images.png');
+    AssetImage assetImage = AssetImage('images/images.jpg');
     Image image = Image(image: assetImage);
     return Container(child: image, );
   }
