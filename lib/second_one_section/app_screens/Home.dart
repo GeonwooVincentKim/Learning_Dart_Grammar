@@ -79,7 +79,13 @@ class Home extends StatelessWidget{
                       ),
                     ),
                   ],
-                )
+                ),
+
+                /*
+                * Add Images into 'Row'-Attribute.
+                * */
+                FlightImageAsset()
+
               ],
             )
         )
