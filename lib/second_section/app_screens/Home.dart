@@ -69,7 +69,7 @@ class Home extends StatelessWidget{
                 ),
                 Expanded(
                   child: Text(
-                    "From Seoul/Incheon to Oslo via Paris.",
+                    "From Busan to Moscow via Vladivostok",
                     textDirection: TextDirection.ltr,
                     style: TextStyle(
                         decoration: TextDecoration.none,
