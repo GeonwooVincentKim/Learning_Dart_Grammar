@@ -88,3 +88,11 @@ class Home extends StatelessWidget{
 }
 
 
+class FlightImageAsset extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    throw UnimplementedError();
+  }
+  
+}
