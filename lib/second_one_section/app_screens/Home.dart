@@ -81,11 +81,8 @@ class Home extends StatelessWidget{
                   ],
                 ),
 
-                /*
-                * Add Images into 'Row'-Attribute.
-                * */
+                /* Add Images into 'Row'-Attribute. */
                 FlightImageAsset()
-
               ],
             )
         )
@@ -99,7 +96,14 @@ class FlightImageAsset extends StatelessWidget {
   Widget build(BuildContext context) {
     AssetImage assetImage = AssetImage('images/images.jpg');
     Image image = Image(image: assetImage, width: 250.0, height: 250.0);
-    return Container(child: image, );
+    return Container(child: image,);
   }
-  
+}
+
+
+class FlightBookButton extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return null;
+  }
 }
