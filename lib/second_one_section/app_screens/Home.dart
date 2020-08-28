@@ -103,6 +103,8 @@ class FlightImageAsset extends StatelessWidget {
 
 
 class FlightBookButton extends StatelessWidget {
+  // BuildContext is basically being receive
+  // for this our state-text-widget.
   @override
   Widget build(BuildContext context) {
     /*
@@ -133,10 +135,22 @@ class FlightBookButton extends StatelessWidget {
           ),
         ),
         elevation:  6.0,
-        onPressed: () {
-          // action
-        }
+        // 'onPressed' role -> Clicked-Action for Button.
+        onPressed: () => bookFlight(context)
       ),
+    );
+  }
+
+  void bookFlight(BuildContext context){
+    var alertDialog = AlertDialog(
+      title: Text("Flight Booked Successfully"),
+      content: Text("Have a pleasant flight"),
+    );
+
+    showDialog(
+      context: context,
+      // Use the Function-expression to makes code simple.
+      builder: (BuildContext context) => alertDialog
     );
   }
 }
