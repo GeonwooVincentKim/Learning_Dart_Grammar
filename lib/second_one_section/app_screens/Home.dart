@@ -111,6 +111,11 @@ class FlightBookButton extends StatelessWidget {
     *
     * If we set that the 'onPressed' is not null,
     * we can see the color what we wanted, 'deepOrange'.
+    *
+    * And the one of parameter named 'elevation'
+    * released 6.0 points from as Button-Container,
+    * and the 'elevation' includes deep-sharps just
+    * we need our button.
     * */
     return Container(
       margin: EdgeInsets.only(top: 30.0),
@@ -118,7 +123,15 @@ class FlightBookButton extends StatelessWidget {
       height: 50.0,
       child: RaisedButton(
         color: Colors.deepOrange,
-        child: Text("Book Your Flight"),
+        child: Text(
+          "Book Your Flight",
+          style: TextStyle(
+            fontSize: 20.0,
+            color: Colors.white,
+            fontFamily: 'Raleway',
+            fontWeight: FontWeight.w700
+          ),
+        ),
         elevation:  6.0,
         onPressed: () {
           // action
