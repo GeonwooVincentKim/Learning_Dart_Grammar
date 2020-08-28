@@ -108,13 +108,21 @@ class FlightBookButton extends StatelessWidget {
     /*
     * The meaning of 'onPressed: null' is you've been not
     * to book your own flight-ticket.
+    *
+    * If we set that the 'onPressed' is not null,
+    * we can see the color what we wanted, 'deepOrange'.
     * */
     return Container(
+      margin: EdgeInsets.only(top: 30.0),
+      width: 250.0,
+      height: 50.0,
       child: RaisedButton(
         color: Colors.deepOrange,
         child: Text("Book Your Flight"),
-        elevation: 6.0,
-        onPressed: null
+        elevation:  6.0,
+        onPressed: () {
+          // action
+        }
       ),
     );
   }
