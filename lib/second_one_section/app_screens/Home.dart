@@ -82,7 +82,8 @@ class Home extends StatelessWidget{
                 ),
 
                 /* Add Images into 'Row'-Attribute. */
-                FlightImageAsset()
+                FlightImageAsset(),
+                FlightBookButton(),
               ],
             )
         )
@@ -108,6 +109,7 @@ class FlightBookButton extends StatelessWidget {
       child: RaisedButton(
         color: Colors.deepOrange,
         child: Text("Book Your Flight"),
+        elevation: 6.0,
         onPressed: null
       ),
     );
