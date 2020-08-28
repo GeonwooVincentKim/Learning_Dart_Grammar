@@ -105,6 +105,10 @@ class FlightImageAsset extends StatelessWidget {
 class FlightBookButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    /*
+    * The meaning of 'onPressed: null' is you've been not
+    * to book your own flight-ticket.
+    * */
     return Container(
       child: RaisedButton(
         color: Colors.deepOrange,
