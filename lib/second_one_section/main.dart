@@ -41,7 +41,7 @@ void showSnackBar(BuildContext context, String item){
     action: SnackBarAction(
       label: "UNDO",
       onPressed: () {
-        debugPrint("");
+        debugPrint("Performing dummy UNDO operation");
       }
     ),
   );
