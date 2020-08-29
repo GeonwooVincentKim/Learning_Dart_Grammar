@@ -11,10 +11,11 @@ void main(){
         // appBar: AppBar(title: Text("Basic List View"),),
         appBar: AppBar(title: Text("Long List"),),
         body: getListView(),
+
+        // Add items by press the '+' Button.
         floatingActionButton: FloatingActionButton(
           onPressed: null,
           child: Icon(Icons.add),
-          // Add items by press the '+' Button.
           tooltip: 'Add One More Item',
         ),
       ),
