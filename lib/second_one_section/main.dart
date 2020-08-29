@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import './app_screens/Home.dart';
+import './container/list_tile.dart';
+
 
 void main(){
   runApp(
@@ -8,7 +10,13 @@ void main(){
       home: Scaffold(
         // appBar: AppBar(title: Text("Basic List View"),),
         appBar: AppBar(title: Text("Long List"),),
-        body: getListView()
+        body: getListView(),
+        floatingActionButton: FloatingActionButton(
+          onPressed: null,
+          child: Icon(Icons.add),
+          // Add items by press the '+' Button.
+          tooltip: 'Add One More Item',
+        ),
       ),
     ),
   );
