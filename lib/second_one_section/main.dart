@@ -19,6 +19,11 @@ void main(){
  * - 2. Now this trailing and leading are basically
  * the properties that expects a widget generally
  * using 'Icon' for them.
+ *
+ * - 3. Delete the subtitle and trailing icon
+ * because the properties are basically optional
+ * and its totally depends on its requirement
+ * when your 'ListTile' that you didn't select.
  * */
 // ignore: missing_return
 Widget getListView(){
@@ -31,10 +36,6 @@ Widget getListView(){
         trailing: Icon(Icons.wb_sunny),
       ),
 
-      // Delete the subtitle and trailing icon
-      // because the properties are basically
-      // optional it totally depends on its
-      // requirement.
       ListTile(
         leading: Icon(Icons.landscape),
         title: Text("Landscape"),
