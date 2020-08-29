@@ -31,8 +31,9 @@ Widget getListView(){
     // Inner-Function.
     //g ignore: missing_return
     itemBuilder: (context, index) {
+      // Executor of all thousands Elements.
       return ListTile(
-        // Executor of all thousands Elements.
+        leading: Icon(Icons.arrow_right),
         title: Text(listItems[index]),
       );
     }
