@@ -5,7 +5,9 @@ void main(){
   runApp(
     MaterialApp(
       title: "Exploring UI widgets",
-      home: getListView(),
+      home: Scaffold(
+        body: getListView(),
+      ),
     ),
   );
 }
