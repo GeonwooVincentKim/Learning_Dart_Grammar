@@ -11,8 +11,12 @@ void main(){
 }
 
 /*
- * The most commonly used widget for a ListView is
+ * - 1. The most commonly used widget for a ListView is
  * actually the ListTile.
+ *
+ * - 2. Now this trailing and leading are basically
+ * the properties that expects a widget generally
+ * using 'Icon' for them.
  * */
 // ignore: missing_return
 Widget getListView(){
