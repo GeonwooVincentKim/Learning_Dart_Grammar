@@ -5,7 +5,7 @@ void main(){
   runApp(
     MaterialApp(
       title: "Exploring UI widgets",
-      home: Home(),
+      home: getListView(),
     ),
   );
 }
@@ -30,4 +30,6 @@ Widget getListView(){
       )
     ],
   );
+
+  return listView;
 }
