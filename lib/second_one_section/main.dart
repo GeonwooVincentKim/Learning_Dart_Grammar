@@ -28,10 +28,12 @@ void main(){
 
 // Enabling a snack-bar in the bottom of the screen.
 // ignore: missing_return
-void showSnackBar(){
+void showSnackBar(BuildContext context){
   var snackBar = SnackBar(
     content: Text("")
   );
+
+  Scaffold.of(context).showSnackBar(snackBar);
 }
 
 
