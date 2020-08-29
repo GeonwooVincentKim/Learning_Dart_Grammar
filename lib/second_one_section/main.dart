@@ -5,8 +5,13 @@ void main(){
   runApp(
     MaterialApp(
       title: "Exploring UI widgets",
-      home: ,
+      home: getListView(),
     ),
   );
 }
 
+
+// ignore: missing_return
+Widget getListView(){
+
+}
