@@ -6,6 +6,7 @@ void main(){
     MaterialApp(
       title: "Exploring UI widgets",
       home: Scaffold(
+        appBar: AppBar(title: Text("Basic List View"),),
         body: getListView(),
       ),
     ),
@@ -34,17 +35,29 @@ Widget getListView(){
         title: Text("Landscape"),
         subtitle: Text("Beautiful View!"),
         trailing: Icon(Icons.wb_sunny),
+        onTap: () {
+          debugPrint("Landscape tapped");
+        },
       ),
 
       ListTile(
         leading: Icon(Icons.landscape),
         title: Text("Windows"),
+        onTap: () {
+          debugPrint("Window tapped");
+        },
       ),
 
       ListTile(
         leading: Icon(Icons.landscape),
         title: Text("Phone"),
+        onTap: () {
+          debugPrint("Phone tapped");
+        },
       ),
+
+      Text("Yet another element in List"),
+      Container(color: Colors.red, height: 50.0),
     ],
   );
 
