@@ -10,8 +10,17 @@ void main(){
   );
 }
 
-
+/*
+ * The most commonly used widget for a ListView is
+ * actually the ListTile.
+ * */
 // ignore: missing_return
 Widget getListView(){
-
+  var listView = ListView(
+    children: <Widget>[
+      ListTile(
+        leading: Icon(Icons.landscape),
+      )
+    ],
+  );
 }
