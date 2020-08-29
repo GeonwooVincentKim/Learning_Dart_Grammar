@@ -25,6 +25,16 @@ void main(){
   );
 }
 
+
+// Enabling a snack-bar in the bottom of the screen.
+// ignore: missing_return
+void showSnackBar(){
+  var snackBar = SnackBar(
+    content: Text("")
+  );
+}
+
+
 // Generate List-Item from 0 to 999.
 // ignore: missing_return
 List<String> getListElements(){
