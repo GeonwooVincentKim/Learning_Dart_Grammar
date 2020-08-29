@@ -59,7 +59,8 @@ Widget getListView(){
         leading: Icon(Icons.arrow_right),
         title: Text(listItems[index]),
         onTap: (){
-          debugPrint("${listItems[index]} was tapped");
+          // debugPrint("${listItems[index]} was tapped");
+          showSnackBar(context);
         },
       );
     }
