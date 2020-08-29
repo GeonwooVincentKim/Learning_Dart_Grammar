@@ -5,7 +5,7 @@ void main(){
   runApp(
     MaterialApp(
       title: "Exploring UI widgets",
-      home: getListView(),
+      home: Home(),
     ),
   );
 }
@@ -20,6 +20,9 @@ Widget getListView(){
     children: <Widget>[
       ListTile(
         leading: Icon(Icons.landscape),
+        title: Text("Landscape"),
+        subtitle: Text("Beautiful View!"),
+        trailing: Icon(Icons.wb_sunny),
       )
     ],
   );
