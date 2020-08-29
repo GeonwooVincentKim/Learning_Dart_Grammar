@@ -3,6 +3,11 @@ import './app_screens/Home.dart';
 import './container/list_tile.dart';
 
 
+/*
+* Must have 'Scaffold' attribute
+* because the 'showSnackBar' function needs
+* the context of our Scaffold.
+* */
 void main(){
   runApp(
     MaterialApp(
