@@ -29,6 +29,15 @@ Widget getListView(){
         title: Text("Landscape"),
         subtitle: Text("Beautiful View!"),
         trailing: Icon(Icons.wb_sunny),
+      ),
+
+      // Delete the subtitle and trailing icon
+      // because the properties are basically
+      // optional it totally depends on its
+      // requirement.
+      ListTile(
+        leading: Icon(Icons.landscape),
+        title: Text("Landscape"),
       )
     ],
   );
