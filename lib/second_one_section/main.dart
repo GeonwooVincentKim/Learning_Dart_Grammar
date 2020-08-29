@@ -30,12 +30,20 @@ void main(){
 * - 1. Enabling a snack-bar in the bottom of the screen.
 * - 2. Display the message by using Text-attributes to
 * check which items was clicked.
+* - 3. To prevent the user delete part of list by mistakes,
+* add 'UNDO' function at the right-end of each-lists.
 */
 
 // ignore: missing_return
 void showSnackBar(BuildContext context, String item){
   var snackBar = SnackBar(
-    content: Text("")
+    content: Text("You've just tapped $item"),
+    action: SnackBarAction(
+      label: "UNDO",
+      onPressed: () {
+        debugPrint("");
+      }
+    ),
   );
 
   Scaffold.of(context).showSnackBar(snackBar);
