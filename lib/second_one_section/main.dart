@@ -38,8 +38,13 @@ Widget getListView(){
 
       ListTile(
         leading: Icon(Icons.landscape),
-        title: Text("Landscape"),
-      )
+        title: Text("Windows"),
+      ),
+
+      ListTile(
+        leading: Icon(Icons.landscape),
+        title: Text("Phone"),
+      ),
     ],
   );
 
