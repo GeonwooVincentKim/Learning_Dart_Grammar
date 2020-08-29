@@ -14,7 +14,9 @@ void main(){
 
         // Add items by press the '+' Button.
         floatingActionButton: FloatingActionButton(
-          onPressed: null,
+          onPressed: (){
+            debugPrint("FAB Clicked");
+          },
           child: Icon(Icons.add),
           tooltip: 'Add One More Item',
         ),
