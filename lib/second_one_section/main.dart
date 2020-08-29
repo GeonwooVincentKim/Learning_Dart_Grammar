@@ -26,9 +26,14 @@ void main(){
 }
 
 
-// Enabling a snack-bar in the bottom of the screen.
+/*
+* - 1. Enabling a snack-bar in the bottom of the screen.
+* - 2. Display the message by using Text-attributes to
+* check which items was clicked.
+*/
+
 // ignore: missing_return
-void showSnackBar(BuildContext context){
+void showSnackBar(BuildContext context, String item){
   var snackBar = SnackBar(
     content: Text("")
   );
@@ -60,7 +65,7 @@ Widget getListView(){
         title: Text(listItems[index]),
         onTap: (){
           // debugPrint("${listItems[index]} was tapped");
-          showSnackBar(context);
+          showSnackBar(context, listItems[index]);
         },
       );
     }
