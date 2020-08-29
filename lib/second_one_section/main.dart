@@ -8,6 +8,7 @@ void main(){
       home: Scaffold(
         // appBar: AppBar(title: Text("Basic List View"),),
         appBar: AppBar(title: Text("Long List"),),
+        body: getListView()
       ),
     ),
   );
@@ -21,7 +22,21 @@ List<String> getListElements(){
 }
 
 
+// Outer-Function.
 // ignore: missing_return
 Widget getListView(){
+  var listItems = getListElements();
+  var listView = ListView.builder(
 
+    // Inner-Function.
+    //g ignore: missing_return
+    itemBuilder: (context, index) {
+      return ListTile(
+        // Executor of all thousands Elements.
+        title: Text(listItems[index]),
+      );
+    }
+  );
+
+  return listView;
 }
