@@ -5,7 +5,7 @@ class FavoriteCity extends StatefulWidget {
   @override
   // ignore: missing_return
   State<StatefulWidget> createState(){
-
+    return _FavoriteCityClassState();
   }
 }
 
@@ -14,32 +14,42 @@ class FavoriteCity extends StatefulWidget {
 * - 2. The reason why we use 'State<FavoriteCity>' is
 *      Defining 'State<FavoriteCity>'.
 * */
-class _FavoriteCityClass extends State<FavoriteCity>{
+class _FavoriteCityClassState extends State<FavoriteCity>{
   String name = "";
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: <Widget> [
-        /*
+    return Scaffold (
+      appBar: AppBar(
+        title: Text("Stateful App"),
+      ),
+
+      body: Container(
+        margin: EdgeInsets.all(20.0),
+        child: Column(
+          children: <Widget> [
+            /*
         * - 1. Added a 'TextField' attribute to allow user
         * to enter some Text.
         *
         * - 2. Such as 'FavoriteCity'.
         * */
-        TextField(
-          onSubmitted: (String string) {
-            // Define the handle-matter where we assigning
-            // the variable name, 'String name = "";'
-            // which is our property equal to the
-            // 'UserInput'.
-            setState(() { name=string;});
-          },
-        ),
+            TextField(
+              onSubmitted: (String string) {
+                // Define the handle-matter where we assigning
+                // the variable name, 'String name = "";'
+                // which is our property equal to the
+                // 'UserInput'.
+                setState(() { name=string;});
+              },
+            ),
 
-        // Print and Display the result of variable, 'name'.
-        Text("Your favorite city is $name"),
-      ],
+            // Print and Display the result of variable, 'name'.
+            Text("Your favorite city is $name"),
+          ],
+        ),
+      ),
     );
+
   }
 }
