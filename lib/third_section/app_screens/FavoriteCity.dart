@@ -15,10 +15,18 @@ class FavoriteCity extends StatefulWidget {
 *      Defining 'State<FavoriteCity>'.
 * */
 class _FavoriteCityClass extends State<FavoriteCity>{
+  String name = "";
+
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
-  }
+    return Column(
+      children: <Widget> [
+        TextField(
+          onSubmitted: (String string) {
 
+          },
+        ),
+      ],
+    );
+  }
 }
