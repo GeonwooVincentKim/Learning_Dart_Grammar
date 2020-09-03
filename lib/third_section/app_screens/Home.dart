@@ -17,6 +17,11 @@ import 'package:flutter/material.dart';
 *
 * - Such as 'CheckBox', 'RadioButton', 'Form', 'TextField'.
 *
+* - Use when the UI can change dynamically.
+*
+* - When the widget's state changes, the state object calls
+*   'setState()', telling the framework to redraw the widget.
+*
 *
 * 3. Stateless Widget
 * - No internal state to manage or no direct user interaction,
@@ -25,6 +30,13 @@ import 'package:flutter/material.dart';
 * - Such as 'Text', 'RaisedButton', 'Icon', 'IconButton'.
 *
 * - Overrides the 'build()' and returns a 'Widget'.
+*
+* - Use when the UI depends on the information within
+*   object itself.
+*
+* - For example, if you click on the 'Checkbox', in that case,
+*   it depends on User click on it and its state changes,
+*   so using 'Stateless Widget' is best way to solve this problem.
 * */
 
 
