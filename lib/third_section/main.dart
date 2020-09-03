@@ -7,7 +7,17 @@ void main(){
   runApp(
     MaterialApp(
       title: "Third_Section",
-      home: FavoriteCity(),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("Stateful Application"),
+        ),
+
+        body: Container(
+          margin: EdgeInsets.all(20.0),
+          child: FavoriteCity(),
+        ),
+      ),
+      // home: FavoriteCity(),
     ),
   );
 }
