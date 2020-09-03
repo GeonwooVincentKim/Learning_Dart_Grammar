@@ -33,3 +33,17 @@ when the widget is build and might change during the lifetime of the widget.
 - 5. For example, if you click on the 'Checkbox', in that case,
      it depends on User click on it and its state changes,
      so using 'Stateless Widget' is best way to solve this problem.
+    
+
+## Using Stateful Widgets
+- 1. Create a class that extends a '''StatefulWidget''', 
+     that returns a '''State''' in '''createState()'''.
+
+- 2. Create a '''State''' class, with properties 
+     that may change.
+
+- 3. Within '''State''' class, implement '''build()''' method.
+
+- 4. Call the '''setState()''' to make changes, Calling '''setState()''' 
+     tells framework to redraw widget.
+ 
