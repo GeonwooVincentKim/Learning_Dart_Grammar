@@ -36,6 +36,9 @@ class _FavoriteCityClass extends State<FavoriteCity>{
             setState(() { name=string;});
           },
         ),
+
+        // Print and Display the result of variable, 'name'.
+        Text("Your favorite city is $name"),
       ],
     );
   }
