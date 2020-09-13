@@ -54,11 +54,14 @@ class _FavoriteCityState extends State<FavoriteCity>{
       body: Container(
         child: Column(
           children: <Widget>[
-
             TextField(
               onSubmitted: (String userInput){
                 nameCity = userInput;
               },
+            ),
+            Text(
+              "Your best city is $nameCity",
+              style: TextStyle(fontSize: 20.0),
             ),
           ]
         ),
